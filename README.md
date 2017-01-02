@@ -7,6 +7,7 @@
 * Maven 3.3.9
 * Java 1.8.0
 * OS Mac os x v.10.12.1
+* Apache Tomcat 7.
 
 > Crear la base de datos en pgAdmin con los archivos:
 
@@ -16,4 +17,5 @@
 
 > Correr el programa
 
-* Para la conección de base de datos se necesita el Driver postgresql-9.4.1212.jre6.jar que se puede descargar de [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download.html)
+* Para la conección de base de datos se necesita el Driver postgresql-9.4.1212.jre6.jar que se puede descargar de [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download.html).
+* Una vez descargado el Driver se tiene que copiar a la ruta $TOMCAT_HOME/lib/
