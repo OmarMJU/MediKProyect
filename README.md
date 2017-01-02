@@ -14,4 +14,6 @@
 * paciente_table.sql
 * medico_table.sql
 
-> Correr el programa 
+> Correr el programa
+
+* Para la conección de base de datos se necesita el Driver postgresql-9.4.1212.jre6.jar que se puede descargar de [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download.html)
