@@ -22,6 +22,7 @@
 * El proyecto fue creado en Maven y para ellos se usó el comando ```mvn archetype:generate -DgroupId=com.test -DartifactId=MediK -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false```
 * Para poder trabajar el proyecto desde Eclipse se tiene que aplicar el comando ```mvn eclipse:eclipse -D wtpversion=1.0``` en la carpeta en donde se creó el proyecto con Maven.
 * Teniendo el proyecto en Eclipse, en el *Package Explorer*, damos click derecho sobre la carpeta del proyecto *MediK* `Run As -> Run on server` y selecionamos el servidor que se tenga configurado.
+* Una vez que se haya realizado el paso anterior es posible verificarlo en otros navegadores copiando y pegando la URL en el navegador [http://localhost:8080/MediK/](http://localhost:8080/MediK/) 
 
 ###Navegadores
 
