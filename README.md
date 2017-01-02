@@ -18,5 +18,5 @@
 > Correr el programa
 
 * Para la conección de base de datos se necesita el Driver postgresql-9.4.1212.jre6.jar que se puede descargar de [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download.html).
-* Una vez descargado el Driver se tiene que copiar a la ruta $TOMCAT_HOME/lib/
-* El proyecto fue creado en Maven y para ellos se usó el comando ```mvn archetype:generate -DgroupId=com.test -DartifactId=WebOne -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false```
+* Una vez descargado el Driver se tiene que copiar a la ruta `$TOMCAT_HOME/lib/`
+* El proyecto fue creado en Maven y para ellos se usó el comando ```mvn archetype:generate -DgroupId=com.test -DartifactId=MediK -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false```
