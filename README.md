@@ -8,7 +8,7 @@
 * Java 1.8.0.
 * OS Mac os x v.10.12.1.
 * Apache Tomcat 7.
-* DDWrench Database Design & Synchronization v3.3.7.
+* DBWrench Database Design & Synchronization v3.3.7.
 
 ###Crear la base de datos en pgAdmin con los archivos:
 
