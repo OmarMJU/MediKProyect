@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style-signup.css">
+    <link rel="shortcut icon" href="imag/caduceus.png">
+    <script type="text/javascript" src="scripts/validar.js"></script>
+    <title>Sign Up | MediK</title>
+</head>
+<body>
+   <section class="content-elemts">
+       <div class="data-izq">
+          <div class="cabecera">
+              <div class="logo-header animated fadeInUp">
+                  <img src="imag/caduceus-blue.png" alt="MediK">
+              </div>
+               <div class="medik animated fadeInDown">
+                   <h1>MediK</h1>
+               </div>
+   </div>
+          <div class="div-text animated fadeInDown">
+          <h2>&Uacute;nete</h2>
+           <p>Comencemos con tus datos</p>   
+          </div>
+           
+       </div>
+       <div class="data-der animated fadeInDown">
+           <form action="InsertarPersona.jsp" class="form-class fadeInUp animated">
+               <input name="correo" class="style-camp" type="email" placeholder="Correo" required>
+               <input name="nombre" class="style-camp" type="text" placeholder="Nombre" required>
+               <input name="apellido_p" class="style-camp" type="text" placeholder="Apellido Paterno" required>
+               <input name="apellido_m" class="style-camp" type="text" placeholder="Apellido Materno" required>
+               <input name="date_n" class="style-camp" type="text" placeholder="Fecha nacimiento (dd/mm/aaaa)" pattern="(0[1-9]|1[0-9]|2[0-9]|3[01]).(0[1-9]|1[012]).[0-9]{4}" title="dd/mm/aaaa" required>
+               <input name="curp" class="style-camp" type="text" placeholder="CURP" required>
+               <input name="pass" id="password1" class="style-camp" type="password" placeholder="Password" required>
+               <input name="pass_conf" id="password2" class="style-camp" type="password" placeholder=" Confirma Password" required>
+               <div class="date-class">
+                   <select  name="rol_n">
+                       <option value="paciente">Paciente</option>
+                       <option value="medico">Medico</option>
+                   </select>
+               </div>
+               <input class="style-button" type="submit" value="Sign Up">
+           </form>
+       </div>
+   </section>
+   <footer class="fadeInUp animated">
+       <img src="imag/caduceus-black.png" alt="">
+       <p class="parraf-foter">El diseño y animaciones de esta p&aacute;gina est&aacute; basado en Inspinia y Bootstrap 3</p>
+   </footer>
+</body>
+</html>
