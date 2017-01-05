@@ -46,18 +46,18 @@
       <Cl au="0" df="" nm="paciente" nu="1">
         <DT arr="0" ds="VarChar" en="" id="12" ln="50" sc="null" sg="1" un="0"/>
       </Cl>
-      <Fk deAc="3" nm="fk_paciente_nota" prLkCl="curp_p" upAc="3">
+      <Fk deAc="3" nm="fk_paciente_nota" prLkCl="curp" upAc="3">
         <PrTb mn="0" nm="paciente" oe="1" sch="public" zr="1"/>
         <CdTb mn="1" nm="nota_medica" oe="0" sch="public" zr="1"/>
-        <ClPr cdCl="paciente" prCl="curp_p"/>
+        <ClPr cdCl="paciente" prCl="curp"/>
       </Fk>
       <UniqueConstraints/>
       <SchTrHis/>
     </Tbl>
     <Tbl UsSo="1" nm="paciente">
       <TblOpts>WITHOUT OIDS</TblOpts>
-      <Pk ClNs="curp_p" nm="pkpaciente"/>
-      <Cl au="0" df="" nm="curp_p" nu="0">
+      <Pk ClNs="curp" nm="pkpaciente"/>
+      <Cl au="0" df="" nm="curp" nu="0">
         <DT arr="0" ds="VarChar" en="" id="12" ln="50" sc="null" sg="1" un="0"/>
       </Cl>
       <Cl au="0" df="" nm="nombre" nu="1">
@@ -139,7 +139,15 @@
     <Notes/>
     <Zones/>
   </Dgm>
-  <RnmMgr NxRnmId="1"/>
+  <RnmMgr NxRnmId="4">
+    <RnmCh ObjCls="Column" ParCls="Table" ParNme="paciente" SupCls="Schema" SupNme="public">
+      <Rnm id="1" nNm="curp" oNm="curp_p"/>
+    </RnmCh>
+    <RnmCh ObjCls="Table" ParCls="Schema" ParNme="public" SupCls="" SupNme="">
+      <Rnm id="3" nNm="paciente" oNm="PACIENTE"/>
+      <Rnm id="2" nNm="PACIENTE" oNm="paciente"/>
+    </RnmCh>
+  </RnmMgr>
   <DbDocOptionMgr>
     <BasicOptionMgr>
       <Name>db.doc.option.mgr</Name>
@@ -160,6 +168,11 @@
   </OpenEditors>
   <TreePaths>
     <TreePath/>
+    <TreePath>/Schemas (1)</TreePath>
+    <TreePath>/Schemas (1)/public</TreePath>
+    <TreePath>/Schemas (1)/public/Tables (3)</TreePath>
+    <TreePath>/Diagrams (1)</TreePath>
+    <TreePath>/Diagrams (1)/diagramA</TreePath>
   </TreePaths>
   <SqlTexts/>
 </Db>
