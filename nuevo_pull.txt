@@ -1,1 +1,3 @@
-Esto es un archivo de prueba
+Esto es un archivo de prueba.
+
+Notas: Se haces pruebas de cambios de usuario para Git.
