@@ -26,6 +26,9 @@
 * Una vez que se haya realizado el paso anterior es posible verificarlo en otros navegadores copiando y pegando la URL en el navegador [http://localhost:8080/MediK/](http://localhost:8080/MediK/)
 * El archivo *MediK.xml* es un archivo realizado en DBWrench el cual contiene el modelo ER al igual que la imagen *DER.png*.
 
+## Diagrama de BD
+![Diagrama de Base de Datos](https://github.com/OmarMJU/MediKProyect/blob/master/DER.png "MediK BD")
+
 ## Navegadores
 
 Para poder tener un mejor comportamiento visual de la aplicación se recomienda el uso de:
