@@ -36,3 +36,5 @@ Para poder tener un mejor comportamiento visual de la aplicación se recomienda 
 * Mozilla Firefox Versión 55.0.2883.95.
 * Opera 42.0.2393.94.
 * Safari Rev. 2-20-2019 SMR
+
+Por OMJU
