@@ -2,6 +2,7 @@
 # -- Archivo de excepciones para que no se versionen. --
 # ------------------------------------------------------
 
+# Archivo se creo desde la rama3
 
 # Todos los archivos con extension .omju1
 *.omju1
