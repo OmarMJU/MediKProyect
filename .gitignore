@@ -1,0 +1,9 @@
+# ------------------------------------------------------
+# -- Archivo de excepciones para que no se versionen. --
+# ------------------------------------------------------
+
+
+# Todos los archivos con extension .omju1
+*.omju1
+
+
